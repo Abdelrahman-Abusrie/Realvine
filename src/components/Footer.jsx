@@ -3,12 +3,16 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import EmailIcon from '@mui/icons-material/Email';
 import PhoneIcon from '@mui/icons-material/Phone';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 
 export default function Footer() {
 
     return (
-        <div className=" bg-neutral-900 pt-18 pb-10 sm:pt-24 text-gray-300">
+        <div className=" bg-neutral-900 pt-18 pb-5 sm:pt-24 text-gray-300">
             <div className="container px-3 sm:px-5 md:px-15 mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10 pb-5">
                 <div className="box col-span-2">
                     <div className="logo text-xl text-white font-bold flex items-end gap-1">
@@ -63,19 +67,19 @@ export default function Footer() {
                 </div>
             </div>
             <hr className="text-slate-800" />
-            <div className="container mx-auto px-3 flex justify-between py-7 ">
+            <div className="container mx-auto px-3 flex justify-between pt-7 ">
                 <p>© 2026 Realvine. AbuSrie#1</p>
                 <ul className="flex gap-2">
                     <li className="rounded-md border border-gray-800 hover:bg-green-700 duration-300 p-0.5 h-fit"><a
-                        href=""><i className=" fa-brands fa-facebook"></i></a>
+                        href=""><FacebookIcon /></a>
                     </li>
                     <li className="rounded-md border border-gray-800 hover:bg-green-700 duration-300 p-0.5 h-fit"><a
-                        href=""><i className=" fa-brands fa-instagram"></i></a>
+                        href=""><InstagramIcon /></a>
                     </li>
                     <li className="rounded-md border border-gray-800 hover:bg-green-700 duration-300 p-0.5 h-fit"><a
-                        href=""><i className=" fa-brands fa-twitter"></i></a></li>
+                        href=""><TwitterIcon /></a></li>
                     <li className="rounded-md border border-gray-800 hover:bg-green-700 duration-300 p-0.5 h-fit"><a
-                        href=""><i className=" fa-brands fa-linkedin"></i></a>
+                        href=""><LinkedInIcon /></a>
                     </li>
                 </ul>
             </div>
