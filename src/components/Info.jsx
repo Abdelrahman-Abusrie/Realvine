@@ -8,7 +8,7 @@ export default function Info() {
         <div id='about-US' className="pt-16 pb-10" data-aos="fade-up">
             <div className="container mx-auto px-2 sm:px-5  flex flex-col md:flex-row justify-between gap-x-14 gap-y-8 ">
                 <div className="relative mx-auto basis-1/3 shadow-xl rounded-2xl overflow-hidden">
-                    <img src="./public/images/about-banner.jpg" className='max-h-[450px] w-full' alt="" />
+                    <img src="./images/about-banner.jpg" className='max-h-[450px] w-full' alt="" />
                     <button
                         className="absolute top-1/2 p-4 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white rounded-full cursor-pointer">
                         <PlayArrowIcon fontSize='large' sx={{ color: '#21a657' }} /></button>
