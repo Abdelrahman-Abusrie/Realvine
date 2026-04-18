@@ -4,12 +4,12 @@ import { useState } from 'react';
 
 
 const propertiesData = [
-    { id: 1, image: "./public/images/property-1.jpg", title: "10765 Hillshire Ave, Baton Rouge, LA 70810", rate: 5, price: "$5000", category: "Rent" },
-    { id: 2, image: "./public/images/property-2.jpg", title: "8921 Westheimer Rd, Houston, TX 77063", rate: 4, price: "$6000", category: "Buy" },
-    { id: 3, image: "./public/images/property-3.jpg", title: "4510 Navigation Blvd, Houston, TX 77011", rate: 3, price: "$7000", category: "Sell" },
-    { id: 4, image: "./public/images/property-4.jpg", title: "10765 Hillshire Ave, Baton Rouge, LA 70810", rate: 5, price: "$5000", category: "Buy" },
-    { id: 5, image: "./public/images/property-5.jpg", title: "8921 Westheimer Rd, Houston, TX 77063", rate: 4, price: "$6000", category: "Rent" },
-    { id: 6, image: "./public/images/property-6.jpg", title: "4510 Navigation Blvd, Houston, TX 77011", rate: 3, price: "$7000", category: "Sell" },
+    { id: 1, image: "../../public/images/property-1.jpg", title: "10765 Hillshire Ave, Baton Rouge, LA 70810", rate: 5, price: "$5000", category: "Rent" },
+    { id: 2, image: "../../public/images/property-2.jpg", title: "8921 Westheimer Rd, Houston, TX 77063", rate: 4, price: "$6000", category: "Buy" },
+    { id: 3, image: "../../public/images/property-3.jpg", title: "4510 Navigation Blvd, Houston, TX 77011", rate: 3, price: "$7000", category: "Sell" },
+    { id: 4, image: "../../public/images/property-4.jpg", title: "10765 Hillshire Ave, Baton Rouge, LA 70810", rate: 5, price: "$5000", category: "Buy" },
+    { id: 5, image: "../../public/images/property-5.jpg", title: "8921 Westheimer Rd, Houston, TX 77063", rate: 4, price: "$6000", category: "Rent" },
+    { id: 6, image: "../../public/images/property-6.jpg", title: "4510 Navigation Blvd, Houston, TX 77011", rate: 3, price: "$7000", category: "Sell" },
 ];
 
 export default function Featured() {

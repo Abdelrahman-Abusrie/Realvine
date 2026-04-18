@@ -6,8 +6,8 @@ export default function HeroSection() {
 
     return (
         <div>
-            <div className="mx-3 sm:mx-5 mt-3 h-[500px] relative overflow-hidden rounded-2xl">
-                <img src="./public/images/hero-bg.jpg" alt="" className="absolute -z-20 w-full h-full object-cover " />
+            <div className="mx-3 sm:mx-5 mt-3 h-125 relative overflow-hidden rounded-2xl">
+                <img src="../../public/images/hero-bg.jpg" alt="hero-bg" className="absolute -z-20 w-full h-full object-cover " />
                 <div class="overlay absolute top-0 left-0 w-full h-full -z-10 bg-[rgba(68,64,64,0.2)]"></div>
                 <div class="container mx-auto p-2 sm:p-5 md:px-15">
                     <div class="text mt-25 ">
